@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <title>Money Exchanger</title>
+</head>
+<body>
+  <h1>Exchange Money.</h1>
+  <form action="newExchange.pl" method="get">
+	  <p> Enter the US dollars: <input type="text" name="USD"/></p>
+	  <input type = "radio" name="money" value = "c">
+	  <label for="canadian">Canadian</label><br>
+	  <input type = "radio" name="money" value = "m">
+	  <label for="mexicanpeso">Mexican Peso</label><br>
+	  <input type = "radio"  name="money" value = "e">
+	  <label for="euro">Euro</label><br>
+	  <input type = "radio" name="money" value = "b">
+	  <label for="britishpounds">British Pounds</label><br>
+
+ 	  <p><input type="submit" value="Compute Exchange" /></p>
+  	  <p>Back to <a href="index.html">Home</a>.</p>
+</body>
